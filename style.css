@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 7%;
+}
+
+.logo {
+  margin: 0px;
+  padding: 0px;
+  font-size: 50px;
+  width: 400px;
+  font-weight: bold;
+  float: left;
+  font-family: "comic sans-ms", serif;
+  color: rgb(247, 180, 13);
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: rgba(82, 63, 24, 0.9);
+  z-index: 1;
+  border: 2px solid #b68522;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  position: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: black;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: rgb(247, 180, 13);
+  width: 100%;
+  line-height: 50px;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.gardan {
+  text-align: center;
+  width: 100%;
+}
+
+.gardan img {
+  width: 100%;
+}
+
+.sparepart-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gambar {
+  width: 33%;
+  margin: 0 auto;
+}
+
+.gambar img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.gambar p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+}
+
+.kolom .tengah {
+  text-align: center;
+}
+
+@media screen and (max-widht: 600px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+
+  section {
+    display: block;
+  }
+
+  section img {
+    display: block;
+  }
+}
