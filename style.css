@@ -138,7 +138,7 @@ p {
   text-align: center;
 }
 
-@media screen and (max-widht: 600px) {
+@media screen and (max-widht: 740px) {
   .wrapper {
     width: 100%;
   }
